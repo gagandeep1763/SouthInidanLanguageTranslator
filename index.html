@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>South Indian Language Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>South Indian Language Translator 🌐</h1>
+    <div class="emoji">🔤</div>
+    <div class="content">
+      <div class="language-selector">
+        <select id="from-lang">
+          <option value="en">English</option>
+          <option value="ta-LK">Tamil</option>
+          <option value="te-IN">Telugu</option>
+          <option value="kn-IN">Kannada</option>
+          <option value="ml-IN">Malayalam</option>
+          <option value="tulu">Tulu</option>
+        </select>
+      </div>
+      <div class="language-selector">
+        <select id="to-lang">
+          <option value="en">English</option>
+          <option value="ta-LK">Tamil</option>
+          <option value="te-IN">Telugu</option>
+          <option value="kn-IN">Kannada</option>
+          <option value="ml-IN">Malayalam</option>
+          <option value="tulu">Tulu</option>
+        </select>
+      </div>
+    </div>
+    <div class="content">
+      <div class="text-area">
+        <textarea id="from-text" placeholder="Enter text to translate ✍️"></textarea>
+      </div>
+      <div class="text-area">
+        <textarea id="to-text" placeholder="Translated text 🌟" readonly></textarea>
+      </div>
+    </div>
+    <button class="btn" id="translate-btn">Translate 🔄</button>
+    <div class="footer">
+      <p>&copy; 2024 Gagandeep 💡</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
